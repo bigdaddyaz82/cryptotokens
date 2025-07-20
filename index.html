@@ -1,116 +1,114 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Crypto Carnival: Moonshot Lineup</title>
-  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crypto Carnival Tokens</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: radial-gradient(circle, #ffecd2 0%, #fcb69f 100%);
-      color: #222;
-      overflow-x: hidden;
-    }
-    header {
-      background: linear-gradient(135deg, #ff6a00, #ee0979);
-      color: white;
-      padding: 2rem;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to bottom right, #ffcc70, #ff6f91, #845ec2);
+      color: #fff;
       text-align: center;
-      font-family: 'Luckiest Guy', cursive;
     }
+
+    header {
+      padding: 2rem;
+      background: #222;
+      color: #fff;
+    }
+
     header h1 {
       font-size: 3rem;
       margin: 0;
     }
-    header p {
-      font-size: 1.25rem;
-      margin-top: 0.5rem;
-    }
-    .tokens {
+
+    .tokens-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 1.5rem;
       padding: 2rem;
+      gap: 2rem;
     }
-    .card {
-      background: white;
-      border: 3px solid #ff6a00;
+
+    .token-card {
+      background: #ffffff20;
+      border: 3px dashed #fff;
       border-radius: 20px;
-      padding: 1rem;
       width: 300px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
+      padding: 1.5rem;
+      box-shadow: 0 0 20px #00000070;
+      transition: transform 0.3s ease;
     }
-    .card:hover {
-      transform: scale(1.03);
+
+    .token-card:hover {
+      transform: scale(1.05);
     }
-    .card h2 {
-      font-family: 'Luckiest Guy', cursive;
-      margin: 0.5rem 0;
-      color: #ee0979;
-    }
-    .card p {
-      font-size: 0.95rem;
-      margin: 0.5rem 0 1rem;
-    }
-    .card a {
-      text-decoration: none;
-      display: inline-block;
-      margin-right: 0.5rem;
-      margin-top: 0.5rem;
-      background: #ff6a00;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 10px;
+
+    .token-name {
+      color: lime;
+      font-size: 1.75rem;
       font-weight: bold;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 5px #000;
     }
-    .footer {
-      text-align: center;
+
+    .token-address {
+      font-size: 0.95rem;
+      word-break: break-all;
+    }
+
+    footer {
       padding: 2rem;
-      background: #333;
-      color: #fff;
+      background: #111;
+      color: #ccc;
+      font-size: 0.9rem;
     }
-    .footer a {
-      color: #fcb69f;
+
+    .contact {
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .token-card {
+        width: 90%;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>🎪 Crypto Carnival: Moonshot Lineup 🎉</h1>
-    <p>Step right up! Discover fun and bold tokens with moon potential!</p>
-  </header>  <section class="tokens">
-    <div class="card">
-      <h2>SOBX Token</h2>
-      <p>The first and boldest token of the Big Daddy AZ Crypto Carnival. Built for rewards, fun, and impact.</p>
-      <a href="https://birdeye.so/token/28S8cmeHG7hrSFWzZMZf8LPFChxKSh9gozQo5kFPmoon?chain=solana" target="_blank">View Chart</a>
-      <a href="https://jup.ag/swap/SOL-28S8cmeHG7hrSFWzZMZf8LPFChxKSh9gozQo5kFPmoon" target="_blank">Buy Now</a>
-    </div><div class="card">
-  <h2>Woodchippers</h2>
-  <p>This one goes hard. Community-led justice and powered by crypto fun.</p>
-  <a href="https://birdeye.so/token/EeZb8P5FffWvDb7KNNYrzzuhb78yVWtGzhEawUkHmoon?chain=solana" target="_blank">View Chart</a>
-  <a href="https://jup.ag/swap/SOL-EeZb8P5FffWvDb7KNNYrzzuhb78yVWtGzhEawUkHmoon" target="_blank">Buy Now</a>
-</div>
+    <h1>🎪 Crypto Carnival Tokens 🎟️</h1>
+    <p>Powered by Shaun Reynolds | reynoldspaintingaz.com</p>
+  </header>
 
-<div class="card">
-  <h2>Quarter</h2>
-  <p>Flipping potential like arcade tokens – this one’s small in size but mighty in spirit.</p>
-  <a href="https://birdeye.so/token/BnaCvzFegcdkmZLGPhQrRMbnbx8mg1LPBvDBtX7vmoon?chain=solana" target="_blank">View Chart</a>
-  <a href="https://jup.ag/swap/SOL-BnaCvzFegcdkmZLGPhQrRMbnbx8mg1LPBvDBtX7vmoon" target="_blank">Buy Now</a>
-</div>
+  <section class="tokens-container">
+    <div class="token-card">
+      <div class="token-name">SOBX</div>
+      <div class="token-address">28S8cmeHG7hrSFWzZMZf8LPFChxKSh9gozQo5kFPmoon</div>
+    </div>
+    <div class="token-card">
+      <div class="token-name">Woodchippers For Pedos</div>
+      <div class="token-address">EeZb8P5FffWvDb7KNNYrzzuhb78yVWtGzhEawUkHmoon</div>
+    </div>
+    <div class="token-card">
+      <div class="token-name">QUARTER</div>
+      <div class="token-address">BnaCvzFegcdkmZLGPhQrRMbnbx8mg1LPBvDBtX7vmoon</div>
+    </div>
+    <div class="token-card">
+      <div class="token-name">GOLD</div>
+      <div class="token-address">7xu9oUySZ8FwWb49s4CsZ5seuSrMLMgEiQSJUChkmoon</div>
+    </div>
+  </section>
 
-<div class="card">
-  <h2>Gold</h2>
-  <p>Shiny and bold – the golden ticket of the Carnival lineup. Will you strike it rich?</p>
-  <a href="https://birdeye.so/token/7xu9oUySZ8FwWb49s4CsZ5seuSrMLMgEiQSJUChkmoon?chain=solana" target="_blank">View Chart</a>
-  <a href="https://jup.ag/swap/SOL-7xu9oUySZ8FwWb49s4CsZ5seuSrMLMgEiQSJUChkmoon" target="_blank">Buy Now</a>
-</div>
-
-  </section>  <footer class="footer">
-    <p>Created by <strong>Big Daddy AZ</strong> | Contact: <a href="mailto:reynoldspaintingaz.com">reynoldspaintingaz.com</a></p>
-    <p>© 2025 Crypto Carnival. All rights reserved.</p>
+  <footer>
+    <div>© 2025 Shaun Reynolds • All rights reserved.</div>
+    <div class="contact">Contact: info@reynoldspaintingaz.com</div>
   </footer>
 </body>
 </html>
