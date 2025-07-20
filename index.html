@@ -1,152 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Crypto Carnival by Big Daddy AZ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Carnival: Moonshot Lineup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Arial Rounded MT Bold', sans-serif;
-      background: linear-gradient(to bottom right, #fff0c9, #ffdee9);
+      font-family: 'Roboto', sans-serif;
+      background: radial-gradient(circle, #ffecd2 0%, #fcb69f 100%);
       color: #222;
-      text-align: center;
+      overflow-x: hidden;
     }
-
     header {
-      background: #ff4d4d;
-      color: #fff;
-      padding: 1.5rem 0;
-      font-size: 2rem;
-      font-weight: bold;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      background: linear-gradient(135deg, #ff6a00, #ee0979);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      font-family: 'Luckiest Guy', cursive;
     }
-
-    .description {
-      margin: 1rem auto;
-      max-width: 700px;
-      padding: 0 1rem;
-      font-size: 1.1rem;
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
     }
-
+    header p {
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+    }
     .tokens {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      gap: 1.5rem;
       padding: 2rem;
     }
-
     .card {
-      background: #fff;
+      background: white;
+      border: 3px solid #ff6a00;
       border-radius: 20px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-      margin: 1rem;
-      padding: 1.5rem;
-      max-width: 300px;
-      text-align: left;
+      padding: 1rem;
+      width: 300px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
       transition: transform 0.2s;
     }
-
     .card:hover {
-      transform: scale(1.05);
+      transform: scale(1.03);
     }
-
     .card h2 {
-      font-size: 1.4rem;
-      color: #ff4d4d;
+      font-family: 'Luckiest Guy', cursive;
+      margin: 0.5rem 0;
+      color: #ee0979;
     }
-
     .card p {
       font-size: 0.95rem;
-      margin: 0.8rem 0;
+      margin: 0.5rem 0 1rem;
     }
-
-    .buttons a {
-      display: inline-block;
-      margin: 0.3rem;
-      padding: 0.6rem 1.2rem;
-      background: #4CAF50;
-      color: white;
-      border-radius: 12px;
+    .card a {
       text-decoration: none;
+      display: inline-block;
+      margin-right: 0.5rem;
+      margin-top: 0.5rem;
+      background: #ff6a00;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
       font-weight: bold;
-      font-size: 0.9rem;
     }
-
-    .buttons a.buy {
-      background: #007bff;
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      background: #333;
+      color: #fff;
     }
-
-    footer {
-      margin-top: 2rem;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #888;
-    }
-
-    @media (max-width: 600px) {
-      .tokens {
-        flex-direction: column;
-        align-items: center;
-      }
+    .footer a {
+      color: #fcb69f;
     }
   </style>
 </head>
 <body>
-
-<header>🎪 Big Daddy AZ's Crypto Carnival 🎯</header>
-
-<div class="description">
-  Four Moonshot-launched Solana tokens. Each hits $5K market cap → gets $100K in liquidity. Ride the wave early 🚀
+  <header>
+    <h1>🎪 Crypto Carnival: Moonshot Lineup 🎉</h1>
+    <p>Step right up! Discover fun and bold tokens with moon potential!</p>
+  </header>  <section class="tokens">
+    <div class="card">
+      <h2>SOBX Token</h2>
+      <p>The first and boldest token of the Big Daddy AZ Crypto Carnival. Built for rewards, fun, and impact.</p>
+      <a href="https://birdeye.so/token/28S8cmeHG7hrSFWzZMZf8LPFChxKSh9gozQo5kFPmoon?chain=solana" target="_blank">View Chart</a>
+      <a href="https://jup.ag/swap/SOL-28S8cmeHG7hrSFWzZMZf8LPFChxKSh9gozQo5kFPmoon" target="_blank">Buy Now</a>
+    </div><div class="card">
+  <h2>Woodchippers</h2>
+  <p>This one goes hard. Community-led justice and powered by crypto fun.</p>
+  <a href="https://birdeye.so/token/EeZb8P5FffWvDb7KNNYrzzuhb78yVWtGzhEawUkHmoon?chain=solana" target="_blank">View Chart</a>
+  <a href="https://jup.ag/swap/SOL-EeZb8P5FffWvDb7KNNYrzzuhb78yVWtGzhEawUkHmoon" target="_blank">Buy Now</a>
 </div>
 
-<div class="tokens">
-
-  <!-- SOBX -->
-  <div class="card">
-    <h2>$SOBX</h2>
-    <p>The official token of Crypto Carnival — game rewards + meme heat!</p>
-    <div class="buttons">
-      <a href="https://birdeye.so/token/28S8cmeHG7hrSFWzZMZf8LPFChxKSh9gozQo5kFPmoon?chain=solana" target="_blank">Chart</a>
-      <a href="https://jup.ag/swap/SOL-SOBX_28S8cmeHG7hrSFWzZMZf8LPFChxKSh9gozQo5kFPmoon" target="_blank" class="buy">Buy</a>
-    </div>
-  </div>
-
-  <!-- Woodchippers -->
-  <div class="card">
-    <h2>$WOODCHIPPERS</h2>
-    <p>Edgy meme for justice warriors. Brutal name. Wild support. ⚠️</p>
-    <div class="buttons">
-      <a href="https://birdeye.so/token/EeZb8P5FffWvDb7KNNYrzzuhb78yVWtGzhEawUkHmoon?chain=solana" target="_blank">Chart</a>
-      <a href="https://jup.ag/swap/SOL-WOODCHIPPERS_EeZb8P5FffWvDb7KNNYrzzuhb78yVWtGzhEawUkHmoon" target="_blank" class="buy">Buy</a>
-    </div>
-  </div>
-
-  <!-- QUARTER -->
-  <div class="card">
-    <h2>$QUARTER</h2>
-    <p>Flip your future with this microcap Solana gem. Low MC entry. 🔄</p>
-    <div class="buttons">
-      <a href="https://birdeye.so/token/BnaCvzFegcdkmZLGPhQrRMbnbx8mg1LPBvDBtX7vmoon?chain=solana" target="_blank">Chart</a>
-      <a href="https://jup.ag/swap/SOL-QUARTER_BnaCvzFegcdkmZLGPhQrRMbnbx8mg1LPBvDBtX7vmoon" target="_blank" class="buy">Buy</a>
-    </div>
-  </div>
-
-  <!-- GOLD -->
-  <div class="card">
-    <h2>$GOLD</h2>
-    <p>The Solana standard is here. Clean name, golden entry. 🏆</p>
-    <div class="buttons">
-      <a href="https://birdeye.so/token/7xu9oUySZ8FwWb49s4CsZ5seuSrMLMgEiQSJUChkmoon?chain=solana" target="_blank">Chart</a>
-      <a href="https://jup.ag/swap/SOL-GOLD_7xu9oUySZ8FwWb49s4CsZ5seuSrMLMgEiQSJUChkmoon" target="_blank" class="buy">Buy</a>
-    </div>
-  </div>
-
+<div class="card">
+  <h2>Quarter</h2>
+  <p>Flipping potential like arcade tokens – this one’s small in size but mighty in spirit.</p>
+  <a href="https://birdeye.so/token/BnaCvzFegcdkmZLGPhQrRMbnbx8mg1LPBvDBtX7vmoon?chain=solana" target="_blank">View Chart</a>
+  <a href="https://jup.ag/swap/SOL-BnaCvzFegcdkmZLGPhQrRMbnbx8mg1LPBvDBtX7vmoon" target="_blank">Buy Now</a>
 </div>
 
-<footer>
-  Made with 🎯 by Big Daddy AZ • Powered by Moonshot & Solana
-</footer>
+<div class="card">
+  <h2>Gold</h2>
+  <p>Shiny and bold – the golden ticket of the Carnival lineup. Will you strike it rich?</p>
+  <a href="https://birdeye.so/token/7xu9oUySZ8FwWb49s4CsZ5seuSrMLMgEiQSJUChkmoon?chain=solana" target="_blank">View Chart</a>
+  <a href="https://jup.ag/swap/SOL-7xu9oUySZ8FwWb49s4CsZ5seuSrMLMgEiQSJUChkmoon" target="_blank">Buy Now</a>
+</div>
 
+  </section>  <footer class="footer">
+    <p>Created by <strong>Big Daddy AZ</strong> | Contact: <a href="mailto:reynoldspaintingaz.com">reynoldspaintingaz.com</a></p>
+    <p>© 2025 Crypto Carnival. All rights reserved.</p>
+  </footer>
 </body>
-      </html>
+</html>
